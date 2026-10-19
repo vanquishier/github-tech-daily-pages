@@ -10,33 +10,44 @@
 <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-<header class="masthead wrap"><a class="brand" href="../index.html">GitHub 技术早报</a><span>每天一点新发现</span></header>
-<main class="wrap"><article><div class="eyebrow">每日技术简报</div><h1>GitHub 技术早报 · <time datetime="2026-10-18">2026-10-18</time></h1><p>新项目与正式版本更新。⭐ 为累计 star。</p>
-<h2>AI</h2>
-<h3><a href="https://github.com/vllm-project/vllm/releases/tag/v0.32.0" rel="noopener noreferrer">vllm-project/vllm · v0.32.0</a></h3>
-<p>vllm-project/vllm · 版本更新 · 10-18 14:50</p>
-<p><strong>做什么</strong>：提供高性能、易用的LLM推理和服务器库，通过PagedAttention、连续批处理和量化技术优化吞吐量。</p>
-<p><strong>适合用来</strong>：部署和托管大规模语言模型，特别是需要高吞吐量、低延迟的生成任务，如RAG、聊天机器人、代码生成和API服务。</p>
-<p><strong>本次更新</strong>：新增814个提交，包括结构化决策和通用解析器（POST /v1/systemone端点）、全精度低精度KV缓存（NVFP4、FP8、ROCm）、Model Runner V2（GPU n-gram推测解码、弹性专家并行）、启动和性能优化、以及更多模型支持。</p>
-<h3><a href="https://github.com/ollama/ollama/releases/tag/v0.40.6" rel="noopener noreferrer">ollama/ollama · v0.40.6</a></h3>
-<p>ollama/ollama · 版本更新 · 10-17 06:00</p>
-<p><strong>做什么</strong>：本地和云端运行开源大语言模型的桌面应用程序和工具，提供隐私保护的模型管理和交互。</p>
-<p><strong>适合用来</strong>：在本地或私有环境中运行和交互AI模型（如Gemma 4），进行代码辅助、聊天、内容创作，或通过REST API集成到应用程序中。</p>
-<p><strong>本次更新</strong>：修复Windows孤儿运行器问题，添加q2_0张量和文件类型，在Ollama云中启动clef，改进--ask模式的问题键标识符。</p>
-<h3><a href="https://github.com/anujasid/blender-ai-mcp-addon" rel="noopener noreferrer">anujasid/blender-ai-mcp-addon</a></h3>
-<p>anujasid/blender-ai-mcp-addon · 新项目 · 10-16 06:30 · ⭐ 674</p>
-<p><strong>做什么</strong>：为Blender提供AI助手和MCP服务器，支持视觉聊天、场景工具和多智能体工作流，集成主流大模型。</p>
-<p><strong>适合用来</strong>：在3D创作流程中通过自然语言指令进行场景操作、资产管理和自动化工作流，例如产品展示布局、材质编辑和批量资产处理。</p>
-<h3><a href="https://github.com/SouravBeraAkaSpeed/xiryn" rel="noopener noreferrer">SouravBeraAkaSpeed/xiryn</a></h3>
-<p>SouravBeraAkaSpeed/xiryn · 新项目 · 10-11 21:12 · ⭐ 186</p>
-<p><strong>做什么</strong>：运行在本地计算机上的开源个人代理平台，为每个代理提供隔离的Docker Linux桌面，支持多种大模型和远程控制。</p>
-<p><strong>适合用来</strong>：在本地环境中构建和管理多个自动化任务代理，进行网页浏览、代码编写、研究和协作，数据完全存储在本地，通过Telegram进行控制。</p>
-<h3><a href="https://github.com/sepehr071/awesome-iran-mcp" rel="noopener noreferrer">sepehr071/awesome-iran-mcp</a></h3>
-<p>sepehr071/awesome-iran-mcp · 新项目 · 10-11 20:42 · ⭐ 124</p>
-<p><strong>做什么</strong>：为AI代理提供伊朗本地网站（如Digikala、Snappfood）的MCP服务器集合，支持价格查询、预订和购物比价。</p>
-<p><strong>适合用来</strong>：在AI代理中集成伊朗本地电商、旅行、健康等服务的API，实现自动化比价、预订查询和交易操作。</p>
-<p>来源：GitHub。点击标题查看项目原文。<br>
-中文摘要依据项目说明和发布记录整理。</p></article><nav class="date-nav" aria-label="日报日期导航"><a href="2026-10-17.html">← 上一期 · 2026-10-17</a><a href="../index.html">全部日报</a><a href="2026-10-19.html">下一期 · 2026-10-19 →</a></nav></main>
-<footer class="wrap">GitHub 技术早报 · 记录新项目与正式版本更新</footer>
+<header class="masthead wrap"><a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true"></span>GitHub 技术早报</a><span class="masthead-note">THE DAILY / 技术观察</span></header>
+<main class="wrap"><article class="issue"><header class="issue-header"><div><div class="eyebrow accent">DAILY DIGEST / 每日技术简报</div><h1>GitHub 技术早报</h1></div><div class="issue-date"><time datetime="2026-10-18">2026-10-18</time><span>5 个项目 · 1 个分类</span></div></header><nav class="category-nav" aria-label="本期分类"><span>本期目录</span><a href="#category-1">AI<span class="count">05</span></a></nav><p class="report-intro">新项目与正式版本更新。⭐ 为累计 star。</p>
+<section class="category-section" id="category-1"><div class="category-title"><h2>AI</h2><span>05 个项目</span></div>
+<article class="project-card"><div class="project-topline"><span class="project-category">AI</span><span class="project-number">01</span></div><h3><a href="https://github.com/vllm-project/vllm/releases/tag/v0.32.0" rel="noopener noreferrer">vllm-project/vllm · v0.32.0</a></h3>
+<p class="project-meta"><span class="sr-only">vllm-project/vllm · </span><span class="project-kind">版本更新</span><span>10-18 14:50</span></p>
+<div class="summary-field"><strong>做什么<span class="sr-only">：</span></strong><span>提供高性能、易用的LLM推理和服务器库，通过PagedAttention、连续批处理和量化技术优化吞吐量。</span></div>
+<div class="summary-field"><strong>适合用来<span class="sr-only">：</span></strong><span>部署和托管大规模语言模型，特别是需要高吞吐量、低延迟的生成任务，如RAG、聊天机器人、代码生成和API服务。</span></div>
+<div class="summary-field"><strong>本次更新<span class="sr-only">：</span></strong><span>新增814个提交，包括结构化决策和通用解析器（POST /v1/systemone端点）、全精度低精度KV缓存（NVFP4、FP8、ROCm）、Model Runner V2（GPU n-gram推测解码、弹性专家并行）、启动和性能优化、以及更多模型支持。</span></div>
+<div class="project-action"><a href="https://github.com/vllm-project/vllm/releases/tag/v0.32.0" rel="noopener noreferrer">在 GitHub 查看 <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="project-card"><div class="project-topline"><span class="project-category">AI</span><span class="project-number">02</span></div><h3><a href="https://github.com/ollama/ollama/releases/tag/v0.40.6" rel="noopener noreferrer">ollama/ollama · v0.40.6</a></h3>
+<p class="project-meta"><span class="sr-only">ollama/ollama · </span><span class="project-kind">版本更新</span><span>10-17 06:00</span></p>
+<div class="summary-field"><strong>做什么<span class="sr-only">：</span></strong><span>本地和云端运行开源大语言模型的桌面应用程序和工具，提供隐私保护的模型管理和交互。</span></div>
+<div class="summary-field"><strong>适合用来<span class="sr-only">：</span></strong><span>在本地或私有环境中运行和交互AI模型（如Gemma 4），进行代码辅助、聊天、内容创作，或通过REST API集成到应用程序中。</span></div>
+<div class="summary-field"><strong>本次更新<span class="sr-only">：</span></strong><span>修复Windows孤儿运行器问题，添加q2_0张量和文件类型，在Ollama云中启动clef，改进--ask模式的问题键标识符。</span></div>
+<div class="project-action"><a href="https://github.com/ollama/ollama/releases/tag/v0.40.6" rel="noopener noreferrer">在 GitHub 查看 <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="project-card"><div class="project-topline"><span class="project-category">AI</span><span class="project-number">03</span></div><h3><a href="https://github.com/anujasid/blender-ai-mcp-addon" rel="noopener noreferrer">anujasid/blender-ai-mcp-addon</a></h3>
+<p class="project-meta"><span class="sr-only">anujasid/blender-ai-mcp-addon · </span><span class="project-kind">新项目</span><span>10-16 06:30</span><span>⭐ 674</span></p>
+<div class="summary-field"><strong>做什么<span class="sr-only">：</span></strong><span>为Blender提供AI助手和MCP服务器，支持视觉聊天、场景工具和多智能体工作流，集成主流大模型。</span></div>
+<div class="summary-field"><strong>适合用来<span class="sr-only">：</span></strong><span>在3D创作流程中通过自然语言指令进行场景操作、资产管理和自动化工作流，例如产品展示布局、材质编辑和批量资产处理。</span></div>
+<div class="project-action"><a href="https://github.com/anujasid/blender-ai-mcp-addon" rel="noopener noreferrer">在 GitHub 查看 <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="project-card"><div class="project-topline"><span class="project-category">AI</span><span class="project-number">04</span></div><h3><a href="https://github.com/SouravBeraAkaSpeed/xiryn" rel="noopener noreferrer">SouravBeraAkaSpeed/xiryn</a></h3>
+<p class="project-meta"><span class="sr-only">SouravBeraAkaSpeed/xiryn · </span><span class="project-kind">新项目</span><span>10-11 21:12</span><span>⭐ 186</span></p>
+<div class="summary-field"><strong>做什么<span class="sr-only">：</span></strong><span>运行在本地计算机上的开源个人代理平台，为每个代理提供隔离的Docker Linux桌面，支持多种大模型和远程控制。</span></div>
+<div class="summary-field"><strong>适合用来<span class="sr-only">：</span></strong><span>在本地环境中构建和管理多个自动化任务代理，进行网页浏览、代码编写、研究和协作，数据完全存储在本地，通过Telegram进行控制。</span></div>
+<div class="project-action"><a href="https://github.com/SouravBeraAkaSpeed/xiryn" rel="noopener noreferrer">在 GitHub 查看 <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="project-card"><div class="project-topline"><span class="project-category">AI</span><span class="project-number">05</span></div><h3><a href="https://github.com/sepehr071/awesome-iran-mcp" rel="noopener noreferrer">sepehr071/awesome-iran-mcp</a></h3>
+<p class="project-meta"><span class="sr-only">sepehr071/awesome-iran-mcp · </span><span class="project-kind">新项目</span><span>10-11 20:42</span><span>⭐ 124</span></p>
+<div class="summary-field"><strong>做什么<span class="sr-only">：</span></strong><span>为AI代理提供伊朗本地网站（如Digikala、Snappfood）的MCP服务器集合，支持价格查询、预订和购物比价。</span></div>
+<div class="summary-field"><strong>适合用来<span class="sr-only">：</span></strong><span>在AI代理中集成伊朗本地电商、旅行、健康等服务的API，实现自动化比价、预订查询和交易操作。</span></div>
+<div class="project-action"><a href="https://github.com/sepehr071/awesome-iran-mcp" rel="noopener noreferrer">在 GitHub 查看 <span aria-hidden="true">↗</span></a></div>
+</article>
+<p class="report-note">来源：GitHub。点击标题查看项目原文。<br>
+中文摘要依据项目说明和发布记录整理。</p>
+</section></article><nav class="date-nav" aria-label="日报日期导航"><a href="2026-10-17.html">← 上一期<time datetime="2026-10-17">2026-10-17</time></a><a href="../index.html">全部日报</a><a href="2026-10-19.html">下一期 →<time datetime="2026-10-19">2026-10-19</time></a></nav></main>
+<footer class="wrap">GitHub 技术早报<span>新项目与正式版本更新 · 按日归档</span></footer>
 </body>
 </html>
