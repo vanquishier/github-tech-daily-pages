@@ -237,6 +237,9 @@ footer { display: flex; justify-content: space-between; gap: 20px;
 .price-unavailable { font-size: .8rem; color: var(--muted); }
 .module-warning { margin: 18px 0; padding-left: 15px; border-left: 2px solid var(--accent);
   color: var(--muted); font-size: .76rem; }
+.module-sources { margin: 30px 0 20px; padding-top: 17px; border-top: 1px solid var(--line);
+  color: var(--muted); font-size: .75rem; line-height: 1.9; }
+.module-sources a { color: var(--accent); text-decoration: none; }
 .portal-date-nav { max-width: none; }
 @media (max-width: 700px) {
   .portal .wrap { width: calc(100% - 36px); }
@@ -266,3 +269,35 @@ footer { display: flex; justify-content: space-between; gap: 20px;
   .portal-trail { font-size: .68rem; }
 }
 @media (prefers-reduced-motion: reduce) { .portal-card { transition: none; } }
+
+.github-tabs { display: flex; gap: 8px; margin: 0 0 26px; }
+.github-tabs a { padding: 9px 17px; border: 1px solid var(--line); text-decoration: none;
+  font-size: .78rem; color: var(--muted); }
+.github-tabs a[aria-current="page"] { border-color: var(--accent); color: var(--accent); background: #faf1e6; }
+.weekly-intro { padding-bottom: 26px; border-bottom: 1px solid var(--ink); }
+.weekly-jumps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin: 24px 0 42px; }
+.weekly-jumps a { display: block; text-decoration: none; border: 1px solid var(--line); background: var(--card); padding: 19px 20px; }
+.weekly-jumps strong { display: block; font-size: 1.02rem; font-weight: 650; margin-top: 7px; }
+.weekly-jumps span { color: var(--accent); font-size: .64rem; letter-spacing: .12em; }
+.weekly-section { scroll-margin-top: 24px; margin: 42px 0 52px; }
+.weekly-heading { border-bottom: 1px solid var(--line); padding-bottom: 18px; margin-bottom: 22px; }
+.weekly-heading h2 { font-size: 1.7rem; margin: 8px 0 12px; }
+.weekly-heading p { color: var(--muted); font-size: .82rem; max-width: 52em; margin-bottom: 8px; }
+.weekly-heading time { color: var(--muted); font-size: .71rem; }
+.weekly-metrics { display: flex; flex-wrap: wrap; gap: 12px 24px; margin: 17px 0; }
+.weekly-metric { color: var(--muted); font-size: .7rem; }
+.weekly-metric strong { color: var(--ink); display: block; font-size: 1.45rem; font-weight: 550; letter-spacing: -.025em; }
+.weekly-metric.growth strong { color: var(--accent); }
+.weekly-fallback { color: var(--muted); font-size: .76rem !important; }
+.weekly-archived { color: var(--muted); border: 1px solid var(--line); padding: 2px 7px; }
+.weekly-history { display: flex; flex-wrap: wrap; gap: 10px 20px; padding: 18px 0; border-top: 1px solid var(--line); font-size: .76rem; }
+.weekly-history a { text-decoration: none; }
+@media (max-width: 700px) {
+  .weekly-jumps { gap: 8px; margin-bottom: 30px; }
+  .weekly-jumps a { padding: 14px 12px; }
+  .weekly-jumps strong { font-size: .85rem; }
+  .weekly-jumps span { font-size: .56rem; letter-spacing: .02em; }
+  .weekly-section { margin-block: 30px 38px; }
+  .weekly-heading h2 { font-size: 1.45rem; }
+  .weekly-metric strong { font-size: 1.3rem; }
+}
