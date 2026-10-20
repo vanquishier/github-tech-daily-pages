@@ -240,6 +240,20 @@ footer { display: flex; justify-content: space-between; gap: 20px;
 .module-sources { margin: 30px 0 20px; padding-top: 17px; border-top: 1px solid var(--line);
   color: var(--muted); font-size: .75rem; line-height: 1.9; }
 .module-sources a { color: var(--accent); text-decoration: none; }
+.section-nav { display: flex; flex-wrap: wrap; gap: 12px 26px; margin: 22px 0 34px;
+  padding-bottom: 17px; border-bottom: 1px solid var(--line); }
+.section-nav a { color: var(--accent); text-decoration: none; font-size: .8rem; padding-block: 5px; }
+.portal-section { margin-top: 38px; scroll-margin-top: 24px; }
+.portal-section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; }
+.portal-section-heading h2 { font-size: 1.5rem; margin: 0 0 16px; }
+.portal-section-heading span { color: var(--muted); font-size: .75rem; }
+.content-card.hotspot-card { padding: 16px 18px; margin-bottom: 9px; }
+.hotspot-title { display: flex; align-items: baseline; gap: 14px; }
+.hotspot-rank { flex: 0 0 auto; color: var(--accent); font-size: .68rem;
+  font-variant-numeric: tabular-nums; }
+.content-card.hotspot-card h2 { min-width: 0; margin: 0; font-size: 1rem; line-height: 1.5; }
+.hotspot-meta { margin-top: 6px; gap: 4px 14px; font-size: .68rem; overflow-wrap: anywhere; }
+.content-card.hotspot-card p { margin: 8px 0 0; font-size: .82rem; line-height: 1.7; }
 .portal-date-nav { max-width: none; }
 @media (max-width: 700px) {
   .portal .wrap { width: calc(100% - 36px); }
