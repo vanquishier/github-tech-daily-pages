@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; base-uri 'none'; form-action 'none'">
+<title>2026-10-27 · GitHub 技术早报</title>
+<meta name="description" content="每日 GitHub 新项目与正式版本更新，按日期浏览历史日报。">
+<link rel="stylesheet" href="../style.css?v=79d550c24ea261ffe6731bbb7bc87c0aab1f30e0c1690ab2762a1e4dc3a825e8">
+</head>
+<body>
+<header class="masthead wrap"><a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true"></span>GitHub 技术早报</a><span class="masthead-note">THE DAILY / 技术观察</span></header>
+<main class="wrap"><div class="portal-trail"><a href="../editions/2026-10-27.html">← 当日总览</a><time datetime="2026-10-27">2026-10-27</time><a href="../index.html#history">历史日期 ↗</a></div><nav class="portal-nav" aria-label="当日四个栏目"><a href="../daily/2026-10-27.html" aria-current="page">GitHub 技术</a><a href="../news/2026-10-27.html">新闻精选</a><a href="../hotspots/2026-10-27.html">热点速览</a><a href="../steam/2026-10-27.html">Steam 游戏</a></nav><nav class="github-tabs" aria-label="GitHub 阅读方式"><a href="../daily/2026-10-27.html" aria-current="page">每日技术</a><a href="../github-weekly/2026-10-26.html">每周榜单</a></nav><article class="issue"><header class="issue-header"><div><div class="eyebrow accent">DAILY DIGEST / 每日技术简报</div><h1>GitHub 技术早报</h1></div><div class="issue-date"><time datetime="2026-10-27">2026-10-27</time><span>9 个项目 · 4 个分类</span></div></header><nav class="category-nav" aria-label="本期分类"><span>本期目录</span><a href="#category-1">AI<span class="count">04</span></a><a href="#category-2">Unity<span class="count">02</span></a><a href="#category-3">Spine<span class="count">01</span></a><a href="#category-4">Skill<span class="count">02</span></a></nav><p class="report-intro">实用新项目、版本与技术更新、Skill 动态。⭐ 为累计 star，不代表质量认证。</p>
+<section class="category-section" id="category-1"><div class="category-title"><h2>AI</h2><span>04 个项目</span></div>
+<article class="project-card"><div class="project-topline"><span class="project-category">AI</span><span class="project-number">01</span></div><h3><a href="https://github.com/huggingface/transformers/releases/tag/v5.21" rel="noopener noreferrer">huggingface/transformers · v5.21</a></h3>
+<p class="project-meta"><span class="sr-only">huggingface/transformers · </span><span class="project-kind">版本更新</span><span>10-27 02:17</span></p>
+<div class="summary-field"><strong>做什么<span class="sr-only">：</span></strong><span>提供最先进的多模态预训练模型，支持文本、视觉、音频等模型的推理与训练，是机器学习开发的核心框架。</span></div>
+<div class="summary-field"><strong>适合用来<span class="sr-only">：</span></strong><span>用于开发文档理解、视觉问答、多模态内容生成等AI应用，需配合PyTorch等运行环境。</span></div>
+<div class="summary-field"><strong>本次更新<span class="sr-only">：</span></strong><span>发布说明不足，无法确认具体改动。</span></div>
+<div class="project-action"><a href="https://github.com/huggingface/transformers/releases/tag/v5.21" rel="noopener noreferrer">在 GitHub 查看 <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="project-card"><div class="project-topline"><span class="project-category">AI</span><span class="project-number">02</span></div><h3><a href="https://github.com/Cattmonkey/ChaosIntelligence" rel="noopener noreferrer">Cattmonkey/ChaosIntelligence</a></h3>
+<p class="project-meta"><span class="sr-only">Cattmonkey/ChaosIntelligence · </span><span class="project-kind">新项目</span><span>10-23 21:04</span><span>⭐ 199</span></p>
+<div class="summary-field"><strong>做什么<span class="sr-only">：</span></strong><span>提供函数式智能体编程语言，支持将智能体作为函数调用，构建目标驱动的协作系统。</span></div>
+<div class="summary-field"><strong>适合用来<span class="sr-only">：</span></strong><span>开发多角色工作流Bot、生成交互式报告与实时监控界面，需配合CLI或Web IDE使用。</span></div>
+<div class="project-action"><a href="https://github.com/Cattmonkey/ChaosIntelligence" rel="noopener noreferrer">在 GitHub 查看 <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="project-card"><div class="project-topline"><span class="project-category">AI</span><span class="project-number">03</span></div><h3><a href="https://github.com/heterodoxin/AbliteratedOutTheBox" rel="noopener noreferrer">heterodoxin/AbliteratedOutTheBox</a></h3>
+<p class="project-meta"><span class="sr-only">heterodoxin/AbliteratedOutTheBox · </span><span class="project-kind">新项目</span><span>10-22 05:54</span><span>⭐ 148</span></p>
+<div class="summary-field"><strong>做什么<span class="sr-only">：</span></strong><span>为 Llama.cpp 提供无需训练的推理时“消融”功能，通过动态移除拒绝回答和免责声明方向，让模型在不修改权重的情况下回答有害提示。</span></div>
+<div class="summary-field"><strong>适合用来<span class="sr-only">：</span></strong><span>在保留原始模型权重和生成性能的前提下，测试模型对特定提示的拒绝行为；在需要模型输出特定内容但需保持模型文件不变的研究或测试环境中。</span></div>
+<div class="project-action"><a href="https://github.com/heterodoxin/AbliteratedOutTheBox" rel="noopener noreferrer">在 GitHub 查看 <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="project-card"><div class="project-topline"><span class="project-category">AI</span><span class="project-number">04</span></div><h3><a href="https://github.com/yzlin286-wq/Deepscient" rel="noopener noreferrer">yzlin286-wq/Deepscient</a></h3>
+<p class="project-meta"><span class="sr-only">yzlin286-wq/Deepscient · </span><span class="project-kind">新项目</span><span>10-21 15:44</span><span>⭐ 134</span></p>
+<div class="summary-field"><strong>做什么<span class="sr-only">：</span></strong><span>基于 DeepSeek Harness 的科研工作台，提供包含证据链和可复现性的 12 阶段科研流程，支持 55 门学科、36 个工具和 98 条技能。</span></div>
+<div class="summary-field"><strong>适合用来<span class="sr-only">：</span></strong><span>需要从选题、检索、实验到投稿全流程进行科学研究的场景；需要严格的数据证据链和实验可复现性的科研项目；需要人机协作进行科学探索并保留人类判断权的科研工作。</span></div>
+<div class="project-action"><a href="https://github.com/yzlin286-wq/Deepscient" rel="noopener noreferrer">在 GitHub 查看 <span aria-hidden="true">↗</span></a></div>
+</article>
+</section>
+<section class="category-section" id="category-2"><div class="category-title"><h2>Unity</h2><span>02 个项目</span></div>
+<article class="project-card"><div class="project-topline"><span class="project-category">Unity</span><span class="project-number">05</span></div><h3><a href="https://github.com/krazydarky-code/Multi-Script" rel="noopener noreferrer">krazydarky-code/Multi-Script</a></h3>
+<p class="project-meta"><span class="sr-only">krazydarky-code/Multi-Script · </span><span class="project-kind">新项目</span><span>10-26 03:21</span><span>⭐ 12</span></p>
+<div class="summary-field"><strong>做什么<span class="sr-only">：</span></strong><span>将主流AI聊天网站连接到Unity、Roblox等游戏引擎，实现本地工具桥接与工作流自动化。</span></div>
+<div class="summary-field"><strong>适合用来<span class="sr-only">：</span></strong><span>在游戏开发中使用AI生成资产、自动化编辑任务，需安装本地工具桥接与浏览器扩展。</span></div>
+<div class="project-action"><a href="https://github.com/krazydarky-code/Multi-Script" rel="noopener noreferrer">在 GitHub 查看 <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="project-card"><div class="project-topline"><span class="project-category">Unity</span><span class="project-number">06</span></div><h3><a href="https://github.com/aki-null/SteplessGaussianBlur" rel="noopener noreferrer">aki-null/SteplessGaussianBlur</a></h3>
+<p class="project-meta"><span class="sr-only">aki-null/SteplessGaussianBlur · </span><span class="project-kind">新项目</span><span>10-22 08:25</span><span>⭐ 3</span></p>
+<div class="summary-field"><strong>做什么<span class="sr-only">：</span></strong><span>为URP提供全范围稳定、准确且高效的步进式高斯模糊渲染效果。</span></div>
+<div class="summary-field"><strong>适合用来<span class="sr-only">：</span></strong><span>在Unity中实现平滑的屏幕模糊或纹理模糊，需Unity 6000.3+与URP 17.3+环境。</span></div>
+<div class="project-action"><a href="https://github.com/aki-null/SteplessGaussianBlur" rel="noopener noreferrer">在 GitHub 查看 <span aria-hidden="true">↗</span></a></div>
+</article>
+</section>
+<section class="category-section" id="category-3"><div class="category-title"><h2>Spine</h2><span>01 个项目</span></div>
+<article class="project-card"><div class="project-topline"><span class="project-category">Spine</span><span class="project-number">07</span></div><h3><a href="https://github.com/Samlinb/openbone" rel="noopener noreferrer">Samlinb/openbone</a></h3>
+<p class="project-meta"><span class="sr-only">Samlinb/openbone · </span><span class="project-kind">新项目</span><span>10-25 12:48</span><span>⭐ 3</span></p>
+<div class="summary-field"><strong>做什么<span class="sr-only">：</span></strong><span>提供桌面级2D骨骼动画编辑器，兼容Spine工作流，支持骨骼、贴图、动画与约束操作。</span></div>
+<div class="summary-field"><strong>适合用来<span class="sr-only">：</span></strong><span>创建游戏角色动画与特效，需使用Java 17及libGDX/LWJGL运行环境，支持JSON格式导入导出。</span></div>
+<div class="project-action"><a href="https://github.com/Samlinb/openbone" rel="noopener noreferrer">在 GitHub 查看 <span aria-hidden="true">↗</span></a></div>
+</article>
+</section>
+<section class="category-section" id="category-4"><div class="category-title"><h2>Skill</h2><span>02 个项目</span></div>
+<article class="project-card"><div class="project-topline"><span class="project-category">Skill</span><span class="project-number">08</span></div><h3><a href="https://github.com/rig-c/core/blob/b1c976802f960a95a059212f2e3f0e987ff8aed1/skills/rigc-ingest/SKILL.md" rel="noopener noreferrer">rig-c/core · rigc-ingest</a></h3>
+<p class="project-meta"><span class="sr-only">rig-c/core · </span><span class="project-kind">Skill 动态</span><span>10-25 05:55</span></p>
+<div class="summary-field"><strong>做什么<span class="sr-only">：</span></strong><span>使用rig-c工具解析、验证与重构Spine骨架文件，实现标准化与扩展。</span></div>
+<div class="summary-field"><strong>适合用来<span class="sr-only">：</span></strong><span>处理他人导出的skeleton.文件，进行合规性检查与动画补充，需Bun 1.4及以上环境。</span></div>
+<div class="summary-field"><strong>本次更新<span class="sr-only">：</span></strong><span>技能变更。</span></div>
+<div class="project-action"><a href="https://github.com/rig-c/core/blob/b1c976802f960a95a059212f2e3f0e987ff8aed1/skills/rigc-ingest/SKILL.md" rel="noopener noreferrer">在 GitHub 查看 <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="project-card"><div class="project-topline"><span class="project-category">Skill</span><span class="project-number">09</span></div><h3><a href="https://github.com/Unity-Technologies/skills/blob/51f530f4de53da76b4f5e1b9f57d5622df35ae83/skills/unity-cli/SKILL.md" rel="noopener noreferrer">Unity-Technologies/skills · unity-cli</a></h3>
+<p class="project-meta"><span class="sr-only">Unity-Technologies/skills · </span><span class="project-kind">Skill 动态</span><span>10-23 02:20</span></p>
+<div class="summary-field"><strong>做什么<span class="sr-only">：</span></strong><span>通过命令行控制 Unity 编辑器和项目，支持自动化编辑场景资产、运行 C# 代码、管理许可证与构建测试，并配置 Unity MCP 服务器。</span></div>
+<div class="summary-field"><strong>适合用来<span class="sr-only">：</span></strong><span>需从终端安装或管理 Unity 编辑器、许可证及项目版本控制时；需自动化构建、测试或执行任意 unity 命令时；需通过脚本控制已运行的 Unity 编辑器进行场景编辑或运行时操作时。</span></div>
+<div class="summary-field"><strong>本次更新<span class="sr-only">：</span></strong><span>技能变更：发布 6 个技能。</span></div>
+<div class="project-action"><a href="https://github.com/Unity-Technologies/skills/blob/51f530f4de53da76b4f5e1b9f57d5622df35ae83/skills/unity-cli/SKILL.md" rel="noopener noreferrer">在 GitHub 查看 <span aria-hidden="true">↗</span></a></div>
+</article>
+<blockquote><p>数据提示：Skill：1 个候选用途资料无法核实，已跳过</p></blockquote>
+<p class="report-note">来源：GitHub。点击标题查看项目原文。<br>
+中文摘要依据项目说明和发布记录整理。</p>
+<p class="report-note"><a href="../index.html">查看历史日报</a></p>
+</section></article><nav class="date-nav" aria-label="日报日期导航"><a href="2026-10-26.html">← 上一期<time datetime="2026-10-26">2026-10-26</time></a><a href="../index.html">全部日报</a></nav><aside class="module-sources" aria-label="信息来源">项目信息来源：<a href="https://github.com/" rel="noopener noreferrer">GitHub</a>；中文说明为基于项目资料的自动整理，请以原文为准。</aside></main>
+<footer class="wrap">GitHub 技术早报<span>新项目与正式版本更新 · 按日归档</span></footer>
+</body>
+</html>
