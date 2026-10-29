@@ -284,6 +284,18 @@ footer { display: flex; justify-content: space-between; gap: 20px;
 }
 @media (prefers-reduced-motion: reduce) { .portal-card { transition: none; } }
 
+.portal-card:last-child:nth-child(odd) { grid-column: 1 / -1; min-height: 210px; }
+.tutorial-series { margin: 24px 0 30px; }
+.tutorial-series > h3 { font-size: 1.05rem; margin: 0 0 14px; }
+.tutorial-series details { border-top: 1px solid var(--line); padding-top: 14px; }
+.tutorial-series summary { cursor: pointer; color: var(--accent); font-size: .82rem; padding-bottom: 14px; }
+.tutorial-recent { display: grid; gap: 10px; margin: 18px 0 30px; padding-left: 22px; }
+.tutorial-recent a { color: var(--ink); text-underline-offset: 4px; }
+.tutorial-note { color: var(--muted); font-size: .78rem; line-height: 1.8; }
+.tutorial-card { scroll-margin-top: 24px; }
+.tutorial-card h3 { font-size: 1.25rem; line-height: 1.5; letter-spacing: -.025em; overflow-wrap: anywhere; margin: 12px 0; }
+.tutorial-card h3 a { text-decoration: none; }
+
 .github-tabs { display: flex; gap: 8px; margin: 0 0 26px; }
 .github-tabs a { padding: 9px 17px; border: 1px solid var(--line); text-decoration: none;
   font-size: .78rem; color: var(--muted); }
