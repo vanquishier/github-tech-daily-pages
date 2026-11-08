@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; base-uri 'none'; form-action 'none'">
+<title>2026-11-09 · GitHub 技术早报</title>
+<meta name="description" content="每日 GitHub 新项目与正式版本更新，按日期浏览历史日报。">
+<link rel="stylesheet" href="../style.css?v=1581e9e3bf1bae2889ef7e40fa9d27f5900aee776c7d73e2d973a3c45720bea9">
+</head>
+<body>
+<header class="masthead wrap"><a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true"></span>GitHub 技术早报</a><span class="masthead-note">THE DAILY / 技术观察</span></header>
+<main class="wrap"><div class="portal-trail"><a href="../editions/2026-11-09.html">← 当日总览</a><time datetime="2026-11-09">2026-11-09</time><a href="../index.html#history">历史日期 ↗</a></div><nav class="portal-nav" aria-label="当日阅读栏目"><a href="../daily/2026-11-09.html" aria-current="page">GitHub 技术</a><a href="../news/2026-11-09.html">新闻精选</a><a href="../hotspots/2026-11-09.html">热点速览</a><a href="../steam/2026-11-09.html">Steam 游戏</a><a href="../tutorials/2026-11-09.html">教程精选</a></nav><nav class="github-tabs" aria-label="GitHub 阅读方式"><a href="../daily/2026-11-09.html" aria-current="page">每日技术</a><a href="../github-weekly/2026-11-09.html">每周榜单</a></nav><article class="issue"><header class="issue-header"><div><div class="eyebrow accent">DAILY DIGEST / 每日技术简报</div><h1>GitHub 技术早报</h1></div><div class="issue-date"><time datetime="2026-11-09">2026-11-09</time><span>8 个项目 · 3 个分类</span></div></header><nav class="category-nav" aria-label="本期分类"><span>本期目录</span><a href="#category-1">AI<span class="count">04</span></a><a href="#category-2">Unity<span class="count">02</span></a><a href="#category-3">Skill<span class="count">02</span></a></nav><p class="report-intro">实用新项目、版本与技术更新、Skill 动态。⭐ 为累计 star，不代表质量认证。</p>
+<section class="category-section" id="category-1"><div class="category-title"><h2>AI</h2><span>04 个项目</span></div>
+<article class="project-card"><div class="project-topline"><span class="project-category">AI</span><span class="project-number">01</span></div><h3><a href="https://github.com/gogoymh/auto-ontology-mcp" rel="noopener noreferrer">gogoymh/auto-ontology-mcp</a></h3>
+<p class="project-meta"><span class="sr-only">gogoymh/auto-ontology-mcp · </span><span class="project-kind">新项目</span><span>11-06 20:09</span><span>⭐ 211</span></p>
+<div class="summary-field"><strong>做什么<span class="sr-only">：</span></strong><span>为 Claude、ChatGPT 等 MCP 客户端提供语义层与个人知识库服务。无需托管模型或配置 API 密钥，通过本地 SQLite 处理确定性工作，模型处理语言步骤。解决文本转 SQL 在复杂场景下静默失败的问题，通过 ontology 验证与审查连接，确保数据查询准确。</span></div>
+<div class="summary-field"><strong>适合用来<span class="sr-only">：</span></strong><span>在数据库上构建业务术语，让 AI 模型生成并验证 SQL 查询；构建个人知识库，管理收据、论文、书籍笔记等，通过全文索引存储事实、观点及原文链接。</span></div>
+<div class="project-action"><a href="https://github.com/gogoymh/auto-ontology-mcp" rel="noopener noreferrer">在 GitHub 查看 <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="project-card"><div class="project-topline"><span class="project-category">AI</span><span class="project-number">02</span></div><h3><a href="https://github.com/wendersoon/radar-cnpj-mcp" rel="noopener noreferrer">wendersoon/radar-cnpj-mcp</a></h3>
+<p class="project-meta"><span class="sr-only">wendersoon/radar-cnpj-mcp · </span><span class="project-kind">新项目</span><span>11-02 07:58</span><span>⭐ 130</span></p>
+<div class="summary-field"><strong>做什么<span class="sr-only">：</span></strong><span>为 Claude 等代理提供巴西 CNPJ 企业数据查询服务，支持通过 CNAE 和地区搜索，数据本地化且免费。</span></div>
+<div class="summary-field"><strong>适合用来<span class="sr-only">：</span></strong><span>在巴西进行市场调研，查询特定地区和行业的公司数量；分析企业分布，导出 CSV 数据。</span></div>
+<div class="project-action"><a href="https://github.com/wendersoon/radar-cnpj-mcp" rel="noopener noreferrer">在 GitHub 查看 <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="project-card"><div class="project-topline"><span class="project-category">AI</span><span class="project-number">03</span></div><h3><a href="https://github.com/nengong/download-anything" rel="noopener noreferrer">nengong/download-anything</a></h3>
+<p class="project-meta"><span class="sr-only">nengong/download-anything · </span><span class="project-kind">新项目</span><span>11-04 18:23</span><span>⭐ 113</span></p>
+<div class="summary-field"><strong>做什么<span class="sr-only">：</span></strong><span>面向个人与AI Agent的全能下载与结构化归档工具。解决从各类平台下载视频、文档、音乐等资源并自动剥离冗余信息、提取字幕封面、生成引用文件及元数据的问题。</span></div>
+<div class="summary-field"><strong>适合用来<span class="sr-only">：</span></strong><span>适合需要批量下载B站、抖音、网盘等平台内容，或需自动整理论文、电子书至Obsidian和AI Agent的本地知识库。需Python 3.10+环境及ffprobe。</span></div>
+<div class="project-action"><a href="https://github.com/nengong/download-anything" rel="noopener noreferrer">在 GitHub 查看 <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="project-card"><div class="project-topline"><span class="project-category">AI</span><span class="project-number">04</span></div><h3><a href="https://github.com/gmpetrov/agent-screenplay" rel="noopener noreferrer">gmpetrov/agent-screenplay</a></h3>
+<p class="project-meta"><span class="sr-only">gmpetrov/agent-screenplay · </span><span class="project-kind">新项目</span><span>11-03 03:27</span><span>⭐ 100</span></p>
+<div class="summary-field"><strong>做什么<span class="sr-only">：</span></strong><span>一款AI Agent脚本录制工具，用于通过编写场景自动生成高质量演示视频。它负责执行操作、拍摄并应用专业级剪辑效果。</span></div>
+<div class="summary-field"><strong>适合用来<span class="sr-only">：</span></strong><span>适合通过Claude Code、Codex或Cursor等Agent快速制作产品演示、功能 walkthrough 或教程视频。需Node 20+环境。</span></div>
+<div class="project-action"><a href="https://github.com/gmpetrov/agent-screenplay" rel="noopener noreferrer">在 GitHub 查看 <span aria-hidden="true">↗</span></a></div>
+</article>
+</section>
+<section class="category-section" id="category-2"><div class="category-title"><h2>Unity</h2><span>02 个项目</span></div>
+<article class="project-card"><div class="project-topline"><span class="project-category">Unity</span><span class="project-number">05</span></div><h3><a href="https://github.com/thanhloccc/UguiPlayable" rel="noopener noreferrer">thanhloccc/UguiPlayable</a></h3>
+<p class="project-meta"><span class="sr-only">thanhloccc/UguiPlayable · </span><span class="project-kind">新项目</span><span>11-04 10:46</span><span>⭐ 6</span></p>
+<div class="summary-field"><strong>做什么<span class="sr-only">：</span></strong><span>为 Unity 6 提供 uGUI 动画工具，在 Timeline 上创建移动、淡入淡出、缩放、重排色和文本动画，替代手写 Tween 代码。</span></div>
+<div class="summary-field"><strong>适合用来<span class="sr-only">：</span></strong><span>在 Unity Timeline 编辑器中直接编辑 UI 元素动画，快速制作 UI 过渡效果；通过预设快速应用动画，支持自定义轨道开发。</span></div>
+<div class="project-action"><a href="https://github.com/thanhloccc/UguiPlayable" rel="noopener noreferrer">在 GitHub 查看 <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="project-card"><div class="project-topline"><span class="project-category">Unity</span><span class="project-number">06</span></div><h3><a href="https://github.com/TekRantGaming/avp-evolution-pc-edition" rel="noopener noreferrer">TekRantGaming/avp-evolution-pc-edition</a></h3>
+<p class="project-meta"><span class="sr-only">TekRantGaming/avp-evolution-pc-edition · </span><span class="project-kind">新项目</span><span>10-31 01:12</span><span>⭐ 5</span></p>
+<div class="summary-field"><strong>做什么<span class="sr-only">：</span></strong><span>将 Android 版 AVP Evolution 游戏在 PC 上进行 Unity 重构，支持 DLSS/FSR/XeSS、现代图形、手柄震动及控制台风格启动器。</span></div>
+<div class="summary-field"><strong>适合用来<span class="sr-only">：</span></strong><span>在 PC 上游玩 AVP Evolution，享受更高质量的图形和现代控制体验；作为源代码项目用于学习或二次开发。</span></div>
+<div class="project-action"><a href="https://github.com/TekRantGaming/avp-evolution-pc-edition" rel="noopener noreferrer">在 GitHub 查看 <span aria-hidden="true">↗</span></a></div>
+</article>
+</section>
+<section class="category-section" id="category-3"><div class="category-title"><h2>Skill</h2><span>02 个项目</span></div>
+<article class="project-card"><div class="project-topline"><span class="project-category">Skill</span><span class="project-number">07</span></div><h3><a href="https://github.com/Unity-Technologies/skills/blob/60f95e6d4beaeacf4dfdff7829ec9b35008a0be0/skills/fix-3d-physics-collisions/SKILL.md" rel="noopener noreferrer">Unity-Technologies/skills · fix-3d-physics-collisions</a></h3>
+<p class="project-meta"><span class="sr-only">Unity-Technologies/skills · </span><span class="project-kind">Skill 动态</span><span>11-07 00:35</span></p>
+<div class="summary-field"><strong>做什么<span class="sr-only">：</span></strong><span>用于诊断并修复 Unity 3D 物理引擎中的 PhysX 碰撞、触发器和射线投射问题，解决对象穿过、事件未触发及 MeshCollider 异常等情况。</span></div>
+<div class="summary-field"><strong>适合用来<span class="sr-only">：</span></strong><span>当 OnCollisionEnter/OnTriggerEnter 不触发、物体互相穿透、射线检测失效或 MeshCollider 行为异常时使用。</span></div>
+<div class="summary-field"><strong>本次更新<span class="sr-only">：</span></strong><span>技能变更。</span></div>
+<div class="project-action"><a href="https://github.com/Unity-Technologies/skills/blob/60f95e6d4beaeacf4dfdff7829ec9b35008a0be0/skills/fix-3d-physics-collisions/SKILL.md" rel="noopener noreferrer">在 GitHub 查看 <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="project-card"><div class="project-topline"><span class="project-category">Skill</span><span class="project-number">08</span></div><h3><a href="https://github.com/XiaoyeCodes/code-animation-prompts" rel="noopener noreferrer">XiaoyeCodes/code-animation-prompts · code-animation-prompts</a></h3>
+<p class="project-meta"><span class="sr-only">XiaoyeCodes/code-animation-prompts · </span><span class="project-kind">新项目</span><span>10-29 18:45</span><span>⭐ 831</span></p>
+<div class="summary-field"><strong>做什么<span class="sr-only">：</span></strong><span>提供 341 种风格提示词库，用于生成具有特定视觉风格的代码动画、HTML 动效或视频。</span></div>
+<div class="summary-field"><strong>适合用来<span class="sr-only">：</span></strong><span>根据风格编号或描述选择视觉风格，将内容转化为可编辑动画；结合提示词生成视频或动画渲染成片。</span></div>
+<div class="project-action"><a href="https://github.com/XiaoyeCodes/code-animation-prompts" rel="noopener noreferrer">在 GitHub 查看 <span aria-hidden="true">↗</span></a></div>
+</article>
+<blockquote><p>数据提示：Skill：3 个候选用途资料无法核实，已跳过；Unity 官方 Skill（Unity-Technologies/skills）：每个 Skill 源最多读取 12 个技能文件，覆盖可能不完整。</p></blockquote>
+<p class="report-note">来源：GitHub。点击标题查看项目原文。<br>
+中文摘要依据项目说明和发布记录整理。</p>
+<p class="report-note"><a href="../index.html">查看历史日报</a></p>
+</section></article><nav class="date-nav" aria-label="日报日期导航"><a href="2026-11-08.html">← 上一期<time datetime="2026-11-08">2026-11-08</time></a><a href="../index.html">全部日报</a></nav><aside class="module-sources" aria-label="信息来源">项目信息来源：<a href="https://github.com/" rel="noopener noreferrer">GitHub</a>；中文说明为基于项目资料的自动整理，请以原文为准。</aside></main>
+<footer class="wrap">GitHub 技术早报<span>新项目与正式版本更新 · 按日归档</span></footer>
+</body>
+</html>
