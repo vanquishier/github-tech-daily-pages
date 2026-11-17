@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; base-uri 'none'; form-action 'none'">
+<title>2026-11-17 · GitHub 技术早报</title>
+<meta name="description" content="每日 GitHub 新项目与正式版本更新，按日期浏览历史日报。">
+<link rel="stylesheet" href="../style.css?v=1581e9e3bf1bae2889ef7e40fa9d27f5900aee776c7d73e2d973a3c45720bea9">
+</head>
+<body>
+<header class="masthead wrap"><a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true"></span>GitHub 技术早报</a><span class="masthead-note">THE DAILY / 技术观察</span></header>
+<main class="wrap"><div class="portal-trail"><a href="../editions/2026-11-17.html">← 当日总览</a><time datetime="2026-11-17">2026-11-17</time><a href="../index.html#history">历史日期 ↗</a></div><nav class="portal-nav" aria-label="当日阅读栏目"><a href="../daily/2026-11-17.html" aria-current="page">GitHub 技术</a><a href="../news/2026-11-17.html">新闻精选</a><a href="../hotspots/2026-11-17.html">热点速览</a><a href="../steam/2026-11-17.html">Steam 游戏</a><a href="../tutorials/2026-11-17.html">教程精选</a></nav><nav class="github-tabs" aria-label="GitHub 阅读方式"><a href="../daily/2026-11-17.html" aria-current="page">每日技术</a><a href="../github-weekly/2026-11-16.html">每周榜单</a></nav><article class="issue"><header class="issue-header"><div><div class="eyebrow accent">DAILY DIGEST / 每日技术简报</div><h1>GitHub 技术早报</h1></div><div class="issue-date"><time datetime="2026-11-17">2026-11-17</time><span>6 个项目 · 3 个分类</span></div></header><nav class="category-nav" aria-label="本期分类"><span>本期目录</span><a href="#category-1">AI<span class="count">03</span></a><a href="#category-2">Unity<span class="count">01</span></a><a href="#category-3">Skill<span class="count">02</span></a></nav><p class="report-intro">实用新项目、版本与技术更新、Skill 动态。⭐ 为累计 star，不代表质量认证。</p>
+<section class="category-section" id="category-1"><div class="category-title"><h2>AI</h2><span>03 个项目</span></div>
+<article class="project-card"><div class="project-topline"><span class="project-category">AI</span><span class="project-number">01</span></div><h3><a href="https://github.com/edgerunners2/capri-ai-desktop" rel="noopener noreferrer">edgerunners2/capri-ai-desktop</a></h3>
+<p class="project-meta"><span class="sr-only">edgerunners2/capri-ai-desktop · </span><span class="project-kind">新项目</span><span>11-17 02:29</span><span>⭐ 214</span></p>
+<div class="summary-field"><strong>做什么<span class="sr-only">：</span></strong><span>为 Windows 提供可视化的桌面 AI 宠物、游戏覆盖层和语音伴侣，支持 Claude Code、Ollama 等本地模型集成。</span></div>
+<div class="summary-field"><strong>适合用来<span class="sr-only">：</span></strong><span>在 Windows 桌面运行时，通过语音或文本与 AI 交互，自动执行程序启动、媒体控制、Discord 语音接入及屏幕任务自动化。</span></div>
+<div class="project-action"><a href="https://github.com/edgerunners2/capri-ai-desktop" rel="noopener noreferrer">在 GitHub 查看 <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="project-card"><div class="project-topline"><span class="project-category">AI</span><span class="project-number">02</span></div><h3><a href="https://github.com/win4r/pi-charter" rel="noopener noreferrer">win4r/pi-charter</a></h3>
+<p class="project-meta"><span class="sr-only">win4r/pi-charter · </span><span class="project-kind">新项目</span><span>11-13 22:59</span><span>⭐ 13</span></p>
+<div class="summary-field"><strong>做什么<span class="sr-only">：</span></strong><span>为 Pi 编码代理提供规格驱动的多 Agent 交付流水线，确保需求、设计和实现的一致性。</span></div>
+<div class="summary-field"><strong>适合用来<span class="sr-only">：</span></strong><span>通过起草和审批契约，自动运行实现、检查、审计和优化步骤，生成基于事实的交付报告。</span></div>
+<div class="project-action"><a href="https://github.com/win4r/pi-charter" rel="noopener noreferrer">在 GitHub 查看 <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="project-card"><div class="project-topline"><span class="project-category">AI</span><span class="project-number">03</span></div><h3><a href="https://github.com/vllm-project/vllm/releases/tag/v0.34.0" rel="noopener noreferrer">vllm-project/vllm · v0.34.0</a></h3>
+<p class="project-meta"><span class="sr-only">vllm-project/vllm · </span><span class="project-kind">版本更新</span><span>11-17 07:22</span></p>
+<div class="summary-field"><strong>做什么<span class="sr-only">：</span></strong><span>提供高性能的大语言模型推理与部署服务，支持多种模型架构和量化方法。</span></div>
+<div class="summary-field"><strong>适合用来<span class="sr-only">：</span></strong><span>部署支持 FlashAttention、多模态、MoE 等架构的 LLM，用于推理、聊天、工具调用和流式输出。</span></div>
+<div class="summary-field"><strong>本次更新<span class="sr-only">：</span></strong><span>默认启用可扩展 KV 缓存，移除模型运行器 V1，默认块大小改为 64，移除 ROCm 7.2 支持及部分量化选项。</span></div>
+<div class="project-action"><a href="https://github.com/vllm-project/vllm/releases/tag/v0.34.0" rel="noopener noreferrer">在 GitHub 查看 <span aria-hidden="true">↗</span></a></div>
+</article>
+</section>
+<section class="category-section" id="category-2"><div class="category-title"><h2>Unity</h2><span>01 个项目</span></div>
+<article class="project-card"><div class="project-topline"><span class="project-category">Unity</span><span class="project-number">04</span></div><h3><a href="https://github.com/BaronCyrus/PixelEffects" rel="noopener noreferrer">BaronCyrus/PixelEffects</a></h3>
+<p class="project-meta"><span class="sr-only">BaronCyrus/PixelEffects · </span><span class="project-kind">新项目</span><span>11-10 22:35</span><span>⭐ 3</span></p>
+<div class="summary-field"><strong>做什么<span class="sr-only">：</span></strong><span>提供 244 个开箱即用的像素风格 Unity 视觉特效资源，包含精灵、预制体和发光着色器。</span></div>
+<div class="summary-field"><strong>适合用来<span class="sr-only">：</span></strong><span>在 Unity 项目中快速添加火焰、爆炸、魔法、天气、UI 等动画效果，通过拖拽预制体或播放组件直接使用。</span></div>
+<div class="project-action"><a href="https://github.com/BaronCyrus/PixelEffects" rel="noopener noreferrer">在 GitHub 查看 <span aria-hidden="true">↗</span></a></div>
+</article>
+</section>
+<section class="category-section" id="category-3"><div class="category-title"><h2>Skill</h2><span>02 个项目</span></div>
+<article class="project-card"><div class="project-topline"><span class="project-category">Skill</span><span class="project-number">05</span></div><h3><a href="https://github.com/Unity-Technologies/skills/blob/5841a34846f3e2b908c37aca1fca2eb15118a440/skills/build-live-game/SKILL.md" rel="noopener noreferrer">Unity-Technologies/skills · build-live-game</a></h3>
+<p class="project-meta"><span class="sr-only">Unity-Technologies/skills · </span><span class="project-kind">Skill 动态</span><span>11-17 05:00</span></p>
+<div class="summary-field"><strong>做什么<span class="sr-only">：</span></strong><span>在 Unity Gaming Services (UGS) 上构建和运营游戏后端，处理登录、服务器逻辑、玩家进度及排行榜等功能。</span></div>
+<div class="summary-field"><strong>适合用来<span class="sr-only">：</span></strong><span>需要集成 UGS 的认证、云存档、远程配置、成就和排行榜功能时使用。</span></div>
+<div class="summary-field"><strong>本次更新<span class="sr-only">：</span></strong><span>发布说明不足，无法确认具体改动。</span></div>
+<div class="project-action"><a href="https://github.com/Unity-Technologies/skills/blob/5841a34846f3e2b908c37aca1fca2eb15118a440/skills/build-live-game/SKILL.md" rel="noopener noreferrer">在 GitHub 查看 <span aria-hidden="true">↗</span></a></div>
+</article>
+<article class="project-card"><div class="project-topline"><span class="project-category">Skill</span><span class="project-number">06</span></div><h3><a href="https://github.com/TubeLabHQ/youtube-research-skills" rel="noopener noreferrer">TubeLabHQ/youtube-research-skills · audit-channel-risk</a></h3>
+<p class="project-meta"><span class="sr-only">TubeLabHQ/youtube-research-skills · </span><span class="project-kind">新项目</span><span>11-05 04:44</span><span>⭐ 101</span></p>
+<div class="summary-field"><strong>做什么<span class="sr-only">：</span></strong><span>使用 TubeLab MCP 审计 YouTube 频道，评估其被取消变现或封禁的风险。</span></div>
+<div class="summary-field"><strong>适合用来<span class="sr-only">：</span></strong><span>检查频道的政策合规性、重复内容、创作者行为等，生成风险评分和修复建议。</span></div>
+<div class="project-action"><a href="https://github.com/TubeLabHQ/youtube-research-skills" rel="noopener noreferrer">在 GitHub 查看 <span aria-hidden="true">↗</span></a></div>
+</article>
+<blockquote><p>数据提示：Skill：1 个候选用途资料无法核实，已跳过；Unity 官方 Skill（Unity-Technologies/skills）：每个 Skill 源最多读取 12 个技能文件，覆盖可能不完整。</p></blockquote>
+<p class="report-note">来源：GitHub。点击标题查看项目原文。<br>
+中文摘要依据项目说明和发布记录整理。</p>
+<p class="report-note"><a href="../index.html">查看历史日报</a></p>
+</section></article><nav class="date-nav" aria-label="日报日期导航"><a href="2026-11-16.html">← 上一期<time datetime="2026-11-16">2026-11-16</time></a><a href="../index.html">全部日报</a></nav><aside class="module-sources" aria-label="信息来源">项目信息来源：<a href="https://github.com/" rel="noopener noreferrer">GitHub</a>；中文说明为基于项目资料的自动整理，请以原文为准。</aside></main>
+<footer class="wrap">GitHub 技术早报<span>新项目与正式版本更新 · 按日归档</span></footer>
+</body>
+</html>
