@@ -253,6 +253,10 @@ footer { display: flex; justify-content: space-between; gap: 20px;
   font-variant-numeric: tabular-nums; }
 .content-card.hotspot-card h2 { min-width: 0; margin: 0; font-size: 1rem; line-height: 1.5; }
 .hotspot-meta { margin-top: 6px; gap: 4px 14px; font-size: .68rem; overflow-wrap: anywhere; }
+.rednote-board { max-width: 560px; margin: 0 auto 24px; }
+.rednote-board iframe { display: block; width: 100%; height: 330px; border: 0; }
+.rednote-board p { margin: 10px 0; font-size: .82rem; color: var(--muted); }
+.rednote-board a { color: var(--accent); }
 .content-card.hotspot-card p { margin: 8px 0 0; font-size: .82rem; line-height: 1.7; }
 .portal-date-nav { max-width: none; }
 @media (max-width: 700px) {
@@ -281,6 +285,9 @@ footer { display: flex; justify-content: space-between; gap: 20px;
   .content-card p { font-size: .92rem; }
   .module-empty { padding: 30px 24px; }
   .portal-trail { font-size: .68rem; }
+}
+@media (max-width: 360px) {
+  .rednote-board iframe { height: 360px; }
 }
 @media (prefers-reduced-motion: reduce) { .portal-card { transition: none; } }
 
